@@ -14,9 +14,12 @@ This project reproduces the paper [DenseCap](https://arxiv.org/pdf/1511.07571.pd
 
 ## Using the pretrained model to predict on one image
 
-Due to the time, I only trained the net with 10 pictures. If you'd like to see the result, please use the pretrained model to predict on 'images/*.jpg'. You only need to run the 'demo.py'.
+Due to the time, I only trained the net with 10 pictures. If you'd like to see the result, please use the pretrained model to predict on 'images/*.jpg'. You only need to run the 'demo.py'. 
 
 ## Train your own model
 1. **Get the data.** Download the train data folder from [visual_genome](http://visualgenome.org/).
 2. **Train RPN model.** Run 'RPN.py'.
 3. **Train RNN model.** Run 'RNN.py'.
+
+## Result
+![Image text](https://github.com/xiaosucheng/Densecap-tensorflow/blob/master/result/out_3.png)
